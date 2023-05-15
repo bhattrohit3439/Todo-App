@@ -10,10 +10,10 @@ function theme() {
 	}
 	if (localStorage.getItem('color-theme') === 'dark') {
 		html.classList.add('dark');
-		themeToggle.src = '../images/icon-sun.svg';
+		themeToggle.src = './images/icon-sun.svg';
 	} else if (localStorage.getItem('color-theme') === 'light') {
 		html.classList.remove('dark');
-		themeToggle.src = '../images/icon-moon.svg';
+		themeToggle.src = './images/icon-moon.svg';
 	}
 }
 theme();
@@ -28,9 +28,9 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (ev
 themeToggle.addEventListener('click', () => {
 	if (html.classList.contains('dark')) {
 		html.classList.remove('dark');
-		themeToggle.src = '../images/icon-moon.svg';
+		themeToggle.src = './images/icon-moon.svg';
 	} else {
 		html.classList.add('dark');
-		themeToggle.src = '../images/icon-sun.svg';
+		themeToggle.src = './images/icon-sun.svg';
 	}
 });
