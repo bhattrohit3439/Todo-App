@@ -1167,7 +1167,7 @@ select {
 @font-face {
 	font-family: 'Josefin Sans';
 
-	src: url('/src/fonts/static/JosefinSans-Regular.ttf');
+	src: url('./fonts/static/JosefinSans-Regular.ttf');
 }
 
 .placeholder\:text-gray-400::-moz-placeholder {
