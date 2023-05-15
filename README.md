@@ -1,6 +1,6 @@
 Todo-App
 
-![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Todo app.](./images/desktop-preview.jpg)
 
 Users should be able to:
 
