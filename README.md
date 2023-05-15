@@ -12,3 +12,5 @@ Users should be able to:
 - Filter by all/active/complete todos
 - Clear all completed todos
 - Toggle light and dark mode
+
+You can visit Todo App here: https://bhattrohit3439.github.io/Todo-App/
